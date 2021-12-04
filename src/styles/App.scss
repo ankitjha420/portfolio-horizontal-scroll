@@ -1,0 +1,46 @@
+.Page{
+    display: inline-block;
+    border: solid 1px black;
+    width: 100vw;
+    position: relative;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.bar{
+    position: fixed;
+    top: 90%;
+    left: 46.5%;
+}
+
+h1{
+    position: relative;
+    left: 45%;
+    top: 40%;
+    border: solid 1px;
+    width: max-content;
+}
+
+.real-bar{
+    height: 10px;
+    width: 20vw;
+    border-radius: 50px;
+    position: fixed;
+    top: 95%;
+    left: 40%;
+    background-color: rgb(155, 155, 155);
+    overflow: hidden;
+
+    .progress-bar{
+        position: relative;
+        background-color: rgb(53, 53, 53);
+        height: 100%;
+        width: 100%;
+        border-radius: 50px;
+        transform: translateX(-100%);
+    }
+}
+
+
